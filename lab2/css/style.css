@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lists{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.list_one, .list_two, .list_three, .list_four{
+    width: 25%;
+    height: 50vh;
+    padding-left: 40px;
+    font-size: 1.5em;
+    font-family: 'Inconsolata', monospace;
+}
+
+.margin_left_li{
+    margin-left: 35px;
+}
+
+.right{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+.text{
+    width: 51%;
+    height: 100%;
+}
+
+.entitles{
+    text-align: justify;
+}
+
+.ohtml{
+    font-size: 2em;
+}
