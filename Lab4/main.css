@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .myblock {
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 30px;
+  }
+  .lemon {
+    width: 180px;
+    height: 180px;
+    margin: 10;
+    background: url(https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png);
+    background-size: contain;
+    background-position: 50%;
+    border-radius: 5px;
+    float: left;
+  }
+  .about-lemon h3 {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .about-lemon p {
+    font-size: 12px;
+    line-height: 150%;
+    margin: 20px 0;
+  }
+
+  
+/*Second task*/
+html,
+body {
+  font-family: "Exo 2", sans-serif;
+}
+.wrap {
+  width: 350px;
+  margin: 40px auto;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 20;
+  text-align: center;
+  margin-bottom: 20px;
+}
+img {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 300px;
+  box-shadow: 0 0 10px #454545;
+}
+p {
+  font-size: 13px;
+  line-height: 150%;
+  margin: 5px 0;
+  padding: 5px;
+}
+.info {
+  border-bottom: 1px solid #c0c0c0;
+  text-align: center;
+  padding: 10px;
+}
+.side {
+  font-weight: 700px;
+  width: 180px;
+  display: inline-block;
+}
+p:nth-child(2n) {
+  background: #ececec;
+}
+
+
+/*Third task*/
+span {
+    content: "\2666";
+}
+div {
+    content: "/2666";
+}
+/*The fourth task*/
+a:link,
+a:visited,
+a:hover,
+a:active {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+}
+a:link {
+  color: #3a681a;
+}
+a:visited {
+  color: #3a681a;
+}
+a:hover {
+  color: #5ca22e;
+}
+a:active {
+  color: #dc0000;
+}
+.pole,
+.pole2 {
+  border: 1px solid #008000;
+  font-size: 11px;
+  background-color: #e7f2d7;
+  height: 17px;
+}
+.pole {
+  width: 95px;
+}
+/*Sixth task*/
+h1.title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1.title::before {
+    content: "";
+    position: relative;
+    top: 16px;
+    right: 5px;
+    height: 4px;
+    width: 500px;
+    background-color: black;
+  }
+  
+  h1.title::after {
+    content: "";
+    position: relative;
+    top: 16px;
+    left: 5px;
+    height: 4px;
+    width: 500px;
+    background-color: black;
+  }
+  
+/*Seventh task*/
+.container{
+    display:flex;
+    justify-content: center;
+}
+  .low_battery {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border: 5px solid black;
+  }
+  .low_battery::before {
+    content: "";
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(185, 11, 11);
+  }
+  .low_battery::after {
+    content: "";
+    position: relative;
+    left: 200px;
+    top: 25px;
+    height: 50px;
+    width: 20px;
+    background-color: black;
+  }
+  .medium_battery {
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: -310px;
+    width: 300px;
+    height: 100px;
+    border: 5px solid black;
+  }
+  .medium_battery::before {
+    content: "";
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(255, 145, 0);
+  }
+  .medium_battery::after {
+    content: "";
+    position: relative;
+    left: 100px;
+    top: 25px;
+    height: 50px;
+    width: 20px;
+    background-color: black;
+  }
+  .high_battery {
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+    top: 300px;
+    left: -620px;
+    width: 300px;
+    height: 100px;
+    border: 5px solid black;
+  }
+  .high_battery::before {
+    content: "";
+    position: relative;
+    z-index: 20;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(4, 121, 4);
+  }
+  .high_battery::after {
+    content: "";
+    position: relative;
+    z-index: -1;
+    left: 200px;
+    top: 25px;
+    height: 50px;
+    width: 20px;
+    background-color: black;
+  }
