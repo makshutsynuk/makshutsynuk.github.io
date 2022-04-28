@@ -13,27 +13,13 @@
    margin: 0 auto;
    background: rgb(255, 255, 255);
 }
+.tovar {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid rgb(169, 169, 169);
+}
 .tovar1 {
-    position: relative;
-    width: 25%;
-    height: 100%;
-    border-right: 2px solid rgb(169, 169, 169);
-}
-.tovar2 {
-    width: 25%;
-    height: 100%;
-    border-right: 2px solid rgb(169, 169, 169);
-}
-.tovar3 {
-    position: relative;
-    width: 25%;
-    height: 100%;
-    border-right: 2px solid rgb(169, 169, 169);
-}
-.tovar4 {
-    position: relative;
-    width: 25%;
-    height: 100%;
+   position: relative;
 }
 .name {
     position: relative;
@@ -52,36 +38,23 @@
     font-weight: bold;
     color: rgb(169, 169, 169);
 }
-.foto1 {
+.foto {
     display: flex;
     width: 70%;
     height: 190px;
     margin: 0 auto;
     margin-top: 20px;
+}
+.foto1 {
     background: url("https://content.rozetka.com.ua/goods/images/big/229667634.jpg") no-repeat center center / cover;
 }
 .foto2 {
-    display: flex;
-    width: 70%;
-    height: 190px;
-    margin: 0 auto;
-    margin-top: 20px;
     background: url("https://content.rozetka.com.ua/goods/images/big/231460859.jpg") no-repeat center center / cover;
 }
 .foto3 {
-    display: flex;
-    width: 70%;
-    height: 190px;
-    margin: 0 auto;
-    margin-top: 20px;
     background: url("https://content.rozetka.com.ua/goods/images/big/259787808.jpg") no-repeat center center / cover;
 }
 .foto4 {
-    display: flex;
-    width: 70%;
-    height: 190px;
-    margin: 0 auto;
-    margin-top: 20px;
     background: url("https://content2.rozetka.com.ua/goods/images/big/262460337.jpg") no-repeat center center / cover;
 }
 .tov{
