@@ -1,0 +1,253 @@
+@media (max-width: 1250px){
+    .container{
+        width: 991px;
+    }
+
+    .portfolio_cards{
+        display: block;
+    }
+
+    .portfolio_cards_columns_left,.portfolio_cards_columns_right{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1035px){
+    .container{
+        width: 767px;
+    }
+
+    .services{
+        padding-bottom: 80px;
+    }
+
+    .services_about{
+        display: block;
+    }
+
+    .services_about_left{
+        justify-content: center;
+    }
+
+    .services_about_right_cards{
+        margin: 50px auto;
+    }
+
+    .impressed{
+        padding-bottom: 0;
+    }
+
+    .impressed_inner{
+        display: block;
+    }
+
+    .impressed_left{
+        text-align: center;
+    }
+
+    .impressed_right{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .prices_cards{
+        width: 640px;
+    }
+    
+    .prices_card{
+        width: 200px;
+    }
+
+    .contact_form{
+        width: 100%;
+    }
+
+    .contact_form_up{
+        display: block;
+    }
+
+    .contact_form_up_input{
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .contact_form_textarea{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact_form_submit{
+        width: 93%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    .container{
+        width: 90%;
+    }
+
+    .header_up_nav{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 250px;
+        height: 100%;
+        background-color:#CACACA;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .header_up_link{
+        display: block;
+    }
+
+    .header_menu{
+        display: block;
+    }
+
+    .this_is_bouncy_inner{
+        display: block;
+        text-align: center;
+    }
+
+    .this_is_bouncy_right{
+        margin-top: 60px;
+    }
+
+    .details_about{
+        display: block;
+        text-align: center;
+    }
+
+    .details_about *{
+        text-align: center;
+    }
+
+    .impressed_left br{
+        display: none;
+    }
+
+    .portfolio_nav{
+        width: 100%;
+    }
+
+    .prices_cards{
+        width: 100%;
+    }
+}
+
+@media (max-width: 512px){
+    .this_is_bouncy br,.details br{
+        display: none;
+    }
+
+    .services_about_right_cards{
+        display: block;
+        width: 122px;
+    }
+
+    .services_about_right_card{
+        margin-bottom: 40px;
+    }
+
+    .services_about_left{
+        display: block;
+    }
+
+    .services_about_left_cards{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .services_about_left_text{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .services_about_left_text br{
+        display: none;
+    }
+
+    .impressed_right{
+        width: 290px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .impressed_right img{
+        width: 100%;
+    }
+
+    .portfolio_nav{
+        display: block;
+    }
+
+    .portfolio_nav_link{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .portfolio_nav_link:hover{
+        color: #19BD9A;
+        border-bottom: 2px solid rgba(0,0,0,0);
+    }
+}
+
+@media (max-width: 700px){
+    .prices_cards{
+        display: block;
+    }
+
+    .prices_card{
+        width: 284px;
+        margin: 20px auto;
+    }
+
+    .prices_card_about,.prices_card_about_2{
+        height: 284px;
+    }
+}
+
+@media (max-width: 625px){
+    .portfolio_cards_columns_left,.portfolio_cards_columns_right{
+        display: block;
+    }
+
+    .portfolio_cards_column{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 608px){
+    .subscribe_form{
+        display: block;
+    }
+
+    .subscribe_email{
+        margin: 0 auto;
+    }
+
+    .subscribe_submit{
+        display: block;
+        width: 376px;
+        padding: 12px 0;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 428px){
+    .subscribe_email{
+        width: 90%;
+    }
+    
+    .subscribe_submit{
+        width: 96%;
+    }
+}
