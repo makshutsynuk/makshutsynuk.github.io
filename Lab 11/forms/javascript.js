@@ -1,4 +1,12 @@
-document.querySelector('.btn').onclick = function() {
+const submit = document.getElementById("butt");
+submit.addEventListener("click", function(e) {
+    if (confirm("Ви дійсно хочете відправити цю форму?")){}
+    else {
+    alert("Дані не надіслано");
+}
+});
+
+/*document.querySelector('.btn').onclick = function() {
     console.log('information');
     
    let a = document.querySelector('.info').value;
@@ -8,4 +16,4 @@ document.querySelector('.btn').onclick = function() {
    let c = document.querySelector('.info-3').value;
    console.log(c);
    onmouseover = alert('Ви нажали на кнопку');
-}
+}*/
