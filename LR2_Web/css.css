@@ -1,0 +1,20 @@
+.work li {
+    padding: 6px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+    }
+    
+    .work li:hover {
+       transform: translateX(6px);
+        }
+        .work li a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          transition: background .3s ease;
+       }
+       .work li a:hover {
+          background: #3ec409;
+       }
+       .content ol li {
+          padding: 10px;
+       }
