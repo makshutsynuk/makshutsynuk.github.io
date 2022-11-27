@@ -1,0 +1,8 @@
+{
+"items": [
+    {"name":"Китайські шашки", "price":4000, "img":"./img/Китайські шашки.jpg"},
+    {"name":"Монопогія", "price":5000, "img":"./img/монополія.jpg"}, 
+    {"name":"Морський бій", "price":7400, "img":"./img/Морський бій.jpg"}, 
+    {"name":"Danko Toys", "price":10200, "img":"./img/Danko Toys.jpg"}
+    ]
+}
